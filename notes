@@ -1,0 +1,26 @@
+<div class="container">
+<h1>Hello World</h1>
+<div class="gallery">
+<div class="gallery-item">
+<img class="gallery-img" src="" alt="" />
+<p class="label">
+Name of image
+</p>
+</div>
+</div>
+</div>
+
+
+<--! in .css>
+
+.container{
+max-width: 800px;
+}
+img{
+max-width: 100%;
+}
+.gallery-item{
+width: 20%;
+display: inline-block;
+margin: 1rem;
+}
