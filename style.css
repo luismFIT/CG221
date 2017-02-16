@@ -3,3 +3,14 @@ font-family: sans-serif;
 color: #cacaca;
 background-color: #69c58f;
 }
+.container{
+max-width: 800px;
+}
+img{
+max-width: 100%;
+}
+.gallery-item{
+width: 20%;
+display: inline-block;
+margin: 1rem;
+}
