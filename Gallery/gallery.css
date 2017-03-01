@@ -46,16 +46,16 @@ img {
   margin: 1rem;
 }
 
-a:hover {
-  color: blue;
-}
-
 a:link {
     color: gray;
 }
 
+a:hover {
+  color: green;
+}
+
 a:visited {
-    color: purple);
+    color: white);
 }
 
 @media only screen and (max-width: 768px) {
