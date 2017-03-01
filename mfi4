@@ -1,0 +1,29 @@
+
+<!Doctype html>
+<html>
+  <head>
+    <meta  charset="utf-8">
+    <title>Luis' Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Luis' MFI</h1>
+    </header>
+
+    <p>My Favorite Internet Week 1</p>
+    <ul>
+      <li>
+          <h2>mfi1</h2>
+          <h3><a href="http://yeahboi.me/">YeahBoi</a></h3>
+          <p>This website is a little jump course game where you add i's to your phrase by surviving. It's done with a simple style, looking mostly like text. Hitting other letters gives you powerups with different effects.</p>
+      </li>
+      <li>
+          <h2>mfi2</h2>
+          <h3><a href="http://tholman.com/texter/">Text Art</a></h3>
+          <p>This website lets you create art with type. You can choose what type gets put out, what color it is, what the background looks like, and so on. However, I have noticed one flaw, and that is when I resize my window, it wipes all my progress. I'm not sure if this is exclusive to me or if it is from certain browsers.</p>
+      </li>
+    </ul>
+  </body>
+</html>
