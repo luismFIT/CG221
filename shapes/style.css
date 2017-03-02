@@ -1,0 +1,10 @@
+body{
+font-family: sans-serif;
+color: #cacaca;
+background-color: #69c58f;
+}
+#square {
+	width: 100px;
+	height: 100px;
+	background: red;
+}
