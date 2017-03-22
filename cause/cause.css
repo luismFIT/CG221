@@ -1,0 +1,95 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: Blue;
+  background-color: lightblue;
+  background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  text-align: center;
+  text-transform: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Changes the color behind to text to black when you hover */
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+  color: Black;
+  font-size: 3rem;
+  text-transform: none;
+  width: 1000px;
+  border: 8px solid green;
+  padding: 8px;
+  margin: auto;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 {
+  border: 1px solid green;
+  text-transform: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:link {
+    color: lightblue;
+}
+
+a:visited {
+    color: purple);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1{
+    font-size: 2rem;
+    width: auto;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
