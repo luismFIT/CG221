@@ -1,19 +1,13 @@
-.container {
-  max-width: 1000px;
-  margin: auto;
-}
-
 
 body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 20px;
   font-weight: bold;
-  color: Blue;
-  background-color: lightblue;
+  color: lightblue;
+  background-color: blue;
   background-image: url("background.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
   text-transform: none;
 }
 
@@ -30,6 +24,7 @@ li {
 }
 
 li a {
+
     display: block;
     color: white;
     text-align: center;
@@ -37,17 +32,16 @@ li a {
     text-decoration: none;
 }
 
-/* Changes the color behind to text to black when you hover */
 li a:hover {
     background-color: #111;
 }
 
 h1 {
-  color: Black;
+  color: white;
   font-size: 3rem;
   text-transform: none;
+  text-align: center;
   width: 1000px;
-  border: 8px solid green;
   padding: 8px;
   margin: auto;
 }
@@ -57,16 +51,26 @@ h2 {
 }
 
 h3 {
-  border: 1px solid green;
   text-transform: none;
 }
 
-img {
-  max-width: 100%;
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+.lake {
+  width: 1000px;
+}
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
 }
 
-a:hover {
-  color: blue;
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 a:link {
@@ -75,6 +79,10 @@ a:link {
 
 a:visited {
     color: purple);
+}
+
+a:hover {
+  color: blue;
 }
 
 @media only screen and (max-width: 768px) {
