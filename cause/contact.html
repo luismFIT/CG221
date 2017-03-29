@@ -1,12 +1,58 @@
 <!Doctype html>
 <html>
 
+
+<style>
+input[type=text] {
+width: 300px;
+height: 10px;
+padding: 12px 20px;
+margin: 8px 0;
+border: 1px solid blue;
+box-sizing: border-box;
+}
+input[type=text]:focus {
+background-color: lightblue;
+}
+
+textarea {
+width: 300px;
+height: 150px;
+padding: 12px 20px;
+box-sizing: border-box;
+border: 1px solid blue;
+border-radius: 4px;
+background-color: #f8f8f8;
+font-size: 16px;
+resize: none;
+}
+
+
+  select {
+    width: 100%;
+    padding: 16px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+        }
+
+  input[type=button], input[type=submit], input[type=reset] {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  </style>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Save our Water</title>
 
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="cause.css">
+
 
   </head>
 
@@ -17,10 +63,19 @@
       <li><a href="contact.html">Contact</a></li>
       <li style="float:right"><a href="index.html">CG221</a></li>
     </ul>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+      </form>
+      <form>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email">
+      </form>
+      <h3>Message:</h3>
+      <form>
+        <textarea></textarea>
+      </form>
+      <input type="submit" value="Submit">
   </body>
 
 </html>
