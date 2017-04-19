@@ -1,6 +1,16 @@
 $(document).ready(function(){
-    //alert("You made it!");
-    $("p").click(function(){
+  $("#hide").click(function(){
+      $("p").hide();
+        });
+  $("#show").click(function(){
+      $("p").show();
+        });
+
+    $("button").click(function(){
+        $("img").fadeIn("slow");
+        });
+
+    $("img").dblclick(function(){
         $(this).hide();
-    });
+        });
 });
