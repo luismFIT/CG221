@@ -1,16 +1,12 @@
 $(document).ready(function(){
   $("#hide").click(function(){
-      $("p").hide();
+      $("img").fadeOut("slow");
         });
   $("#show").click(function(){
-      $("p").show();
-        });
-
-    $("button").click(function(){
-        $("img").fadeIn("slow");
+      $("img").fadeIn("slow");
         });
 
     $("img").dblclick(function(){
-        $(this).hide();
+        $(this).fadeOut("slow");
         });
 });
