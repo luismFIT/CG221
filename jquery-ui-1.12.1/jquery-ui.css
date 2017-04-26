@@ -1310,3 +1310,15 @@ a.ui-button:active,
 	-webkit-box-shadow: 0px 0px 5px #666666;
 	box-shadow: 0px 0px 5px #666666;
 }
+
+/* My Stuff */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: Brown;
+  background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  text-align: center;
+  text-transform: none;
+}
